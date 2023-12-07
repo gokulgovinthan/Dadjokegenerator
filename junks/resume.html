@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+<body>
+    <header>
+        <h1>E.Govinthan</h1>
+    </header>
+    <img src="https://img.fixthephoto.com/blog/images/gallery/news_preview_mob_image__preview_967.jpg" alt="Image of me" title="Govinthan" width="300" height="300">
+    <article>
+        <p>  
+            I am thrilled to submit my application for the Web Developer position at Goldman Sachs, as advertised on your careers page. My name is Govinthan E, and I am eager to leverage my technical expertise and passion for coding to contribute to Goldman Sachs' mission of excellence and innovation.
+            My journey into the world of technology and programming has been a testament to my commitment to pushing the boundaries of what is possible. As a graduate with a degree in Electrical and Electronic Engineering, I have developed a strong foundation in problem-solving, critical thinking, and analytical skills, which I believe are crucial for web development.
+            What sets me apart is my unwavering passion for coding and software development. Despite my engineering background, I have dedicated myself to mastering Java and other object-oriented languages, making me well-equipped to excel in the development of web-based applications. My coding projects have allowed me to gain hands-on experience in designing, developing, and testing enterprise applications, aligning perfectly with the responsibilities outlined for this role at Goldman Sachs.
+             Understanding business needs and translating them into efficient software solutions is a skill I have honed throughout my academic and professional journey. I am proficient in analyzing requirements, facilitating process workflows, and ensuring that applications meet both user expectations and technical specifications. Moreover, my experience with relational databases, including Oracle and Sybase, has equipped me with the database expertise required for this role.</p>
+    </article>
+    <hr>
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>js</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/">Youtube</a></li>
+            <li><a href="https://www.youtube.com/">chrome</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Wiki">wikipedia</a></li>
+        </ul>
+    </section>
+    <footer>
+        <h3>Contact me</h3>
+        <ul>
+        <li><h4>Phone number:8248718635</h4></li>
+        <li><a href="">Gmail</a></li>
+        <li><a href="https://www.linkedin.com/in/govinthan-e-230661164?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BPheojzAmRoKgcG4ncMNOLA%3D%3D">linkedIn</a></li>
+    </ul>
+    </footer>
+    <section>
+    
+        <form action="/submit" method="POST" attribute="value">
+         <fieldset>
+           <legend>FORM PRACTICE</legend>
+                  <table>
+                           <tr>
+                               <td></td<label for="name">Name</label></td>
+                               <td><input type="text" id="name" name="name" required></t>
+                           </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email" id="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td>
+             <td><label><input type="radio" name="gender" value="Male" required>Male</label></td>
+            <td><label><input type="radio" name="gender" value="female" required>Female</label></td>
+            <td><label><input type="radio" name="gender" value="other" required>Other</label></td>
+            </tr>
+            <tr>
+                <td><label for="dateofbirth">Date of birth</label></td>
+                <td><input type="date" id="dateofbirth" name="dateofbirth" required></td>
+            </tr>
+            <tr>
+                <td><label for="country" >Country</label></td>
+                <td><select name="country" required>
+                    <option value="">Select a country</option>
+                    <option value="usa">Usa</option>
+                    <option value="Canada">Canada</option>
+                    <option value="govi world">Govi world</option>
+    
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Interest</label></td>
+                <td>
+                    <td> <label><input type="checkbox" value="chess">Chess</label></td>
+                    <td><label><input type="checkbox" value="Gaming">Gaming</label></td>
+                    <td><label><input type="checkbox" value="others">Others</label></td>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Submit</button></td>
+            </tr>
+        </table>
+    </fieldset>
+
+
+</form>
+           
+    </section>
+
+    
+    
+</body>
+<script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+        event.preventDefault(); // This prevents the form from actually submitting and refreshing the page.
+        alert('Form submitted');
+    });
+</script>
+
+</html>
